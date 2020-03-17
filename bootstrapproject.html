@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="app.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+
+</head>
+<body>
+ <header role="banner" class="navbar navbar-fixed-top navbar-inverse ">
+      <div class="container">
+        <div class="navbar-header">
+          <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="navbar-toggle pull-left"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>        
+          <img src="logo.png" class="logo">
+          <a class="navbar-brand" href="#">Example</a>
+        </div>
+        <div class="navbar-inverse side-collapse in">
+       
+          <nav role="navigation" class="navbar-collapse">
+           
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#Home">Home</a></li>
+              <li><a href="www.google.com">Google</a></li>
+              <li><a href="https://www.microsoft.com/en-ca/">Microsoft</a></li>
+              <li><a href="https://www.amazon.ca/">Amazon</a></li>
+              <li><a href="https://www.apple.com/">Apple</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="container side-collapse-container">
+      <div class="row">
+
+        <h2>Accordion </h2>
+        <p>Click on the Accordion to open and close it.</p>
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse1">Item1</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse">
+              <div class="panel-body">Panel Body</div>
+            </div>
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse2">Item2</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">Panel Body</div>
+            </div>
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse3">Item3</a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">Panel Body</div>
+            </div>
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse4">Item4</a>
+              </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse">
+              <div class="panel-body">Panel Body</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-xs-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">Card Heading</div>        
+            <div class="panel-body">Some quick example text to build on the card title and make up the bulk of the card's content</div>
+            <div class="panel-footer"> <a href="#" class="btn btn-primary">Go somewhere</a></div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-3 col-xs-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">Card Heading</div>        
+            <div class="panel-body">Some quick example text to build on the card title and make up the bulk of the card's content</div>
+            <div class="panel-footer"> <a href="#" class="btn btn-primary">Go somewhere</a></div>
+          </div>
+        </div>
+
+        
+        <div class="col-sm-3 col-xs-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">Card Heading</div>        
+            <div class="panel-body">Some quick example text to build on the card title and make up the bulk of the card's content</div>
+            <div class="panel-footer"> <a href="#" class="btn btn-primary">Go somewhere</a></div>
+          </div>
+        </div>
+
+        
+        <div class="col-sm-3 col-xs-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">Card Heading</div>        
+            <div class="panel-body">Some quick example text to build on the card title and make up the bulk of the card's content</div>
+            <div class="panel-footer"> <a href="#" class="btn btn-primary">Go somewhere</a></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="wrapper">
+      <div id="footer">
+      <div class="footerFloat">
+      <h4>Column 1</h4>
+      <p>This is a sticky footer</p>
+      </div>
+      <div class="footerFloat">
+      <h4>Column 2</h4>
+      <ul>
+        <li>Line 1</li>
+      </ul>
+      </div>
+      <div class="footerFloat">
+      <h4>Column 3</h4>
+      <ul>
+        <li>Line 1</li>
+      </ul>
+      </div>
+      <div class="footerFloat">
+      <h4>Column 4</h4>
+      <p>This is a sticky footer</p>
+      </div>
+      </div>
+
+  
+
+
+    <script src="app.js"></script>
+</body>
+</html>

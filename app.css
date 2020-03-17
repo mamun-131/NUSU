@@ -1,0 +1,100 @@
+
+body {
+          padding-top: 50px;
+          position: relative;
+      }
+            
+      pre {
+          tab-size: 8;
+      }
+      
+      @media screen and (max-width: 768px) {
+          .side-collapse-container{
+              width:100%;
+              position:relative;
+              left:0;
+              transition:left .4s;
+          }
+          .side-collapse-container.out{
+              left:200px;
+          }
+          .side-collapse {
+              top:50px;
+              bottom:0;
+              left:0;
+              width:200px;
+              position:fixed;
+              overflow:hidden;
+              transition:width .4s;
+          }
+          .side-collapse.in {
+              width:0;
+          }
+      }
+
+      .logo{
+        width: 50px; 
+        height:50px; 
+        float: left;
+      }
+      .pannelimg{
+        width: 30px; 
+        height:30px; 
+        float: left;
+      }
+      .footer {
+        position: fixed;
+        height:40px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        
+     }
+
+     #footer {
+         
+        color: white;
+        width: 100%;
+        margin: 0;
+    }
+    .footerFloat {
+    width: 100%;
+    }
+
+
+
+@media all and (min-width: 950px) {
+    #footer {
+
+        width: 980px;
+        margin: auto;
+    } 
+    .footerFloat {
+    width: 25%;
+    float: left;
+    }
+
+    #wrapper {
+        background-color: black;
+        width: 100%;
+        overflow:hidden;
+        position: relative;
+    } 
+    
+
+}
+
+#wrapper {
+    background-color: black;
+    width: 100%;
+    overflow:hidden;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+} 
+
