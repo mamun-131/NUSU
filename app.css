@@ -42,17 +42,7 @@ body {
         height:30px; 
         float: left;
       }
-      .footer {
-        position: fixed;
-        height:40px;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: black;
-        color: white;
-        text-align: center;
-        
-     }
+  
 
      #footer {
          
